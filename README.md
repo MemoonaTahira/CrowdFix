@@ -17,7 +17,19 @@ Some examples of LEDOV are shown below and in **'sample.avi'**.
 ## Download  
 All 538 videos as well as eye-tracking can be downloaded at [Dropbox](https://www.dropbox.com/s/pc8symd9i3cky1q/LEDOV.zip?dl=0) and [BaiduYun](http://pan.baidu.com/s/1pLmfjCZ)
 
-## How to use  
+## How to use 
+
+### memoona 
+
+Format:
+video
+Uncut videos: annotated with their category, 6GB
+434 clips annotated with their category, 5GB
+Frames: won’t be included. Code to generate from videos in python
+Binary Fixation Maps 210 MB
+.mat files .  Code to read images as .mat file in python. 
+Saliency Maps 2.2 GB
+### memoona end
 * **'VideoInfo.xlsx'** and **'SubjectInfo.xlsx'** list the information of videos and subjects.  
 * **'VideoInfo.mat'** also includes the video information in the order of video name, frame rate, frame number, and resolution.  
 *  **'Data.mat'** in each sub-fold record the fixations of the video. In **Data.fixdata**, each row refers to a recorded fixation with the information as follows,   
