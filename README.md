@@ -1,47 +1,32 @@
-# CrowdFix
-MS Thesis Dataset of Human Eye Fixation over Crowd Images
+CrowdFix
+=========
+A new eye-tracking dataset called CrowdFix for crowd video saliency. Database from Memoona Tahira and Sobas Mehboob (National University of Sciences and Technology)
 
-
-LEDOV
-==========
-The large-scale eye-tracking database called LEDOV for video salinecy. Database from Lai Jiang, Mai Xu in Beihang University(2016). 
 
 ## Brief introduction
-LEDOV includes **538 videos** with diverse content, containing a total of **179,336 frames** and **6,431 seconds**. The diverse content refers to the daily action, sports, social activity and art performance of human, and the videos of animal and man-man objects are also included. All videos are at least 720p resolution and 24 Hz frame rate. Then, for monitoring the binocular eye movements, a Tobii TX300 eye tracker  was used in our experiment. Moreover, **32 participants** (18 males and 14 females), aging from 20 to 56 (32 on average), were recruited to participate in the eye-tracking experiment. All participants were non-experts for the eye-tracking experiment, with normal/corrected-to-normal vision. During the experiment, the distance between subjects and the monitor was fixed at 65 cm. Before viewing videos, each subject was required to perform a 9-point calibration for the eye tracker. Afterwards, the subjects were asked to free-view videos displayed at random order. Finally, 5,058,178 fixations of all 32 subjects on 538 videos were collected for our eye-tracking database.
+CrowdFix includes **434 videos** with diverse crowd scenes, containing a total of **37,493 frames** and **1,249 seconds**. The diverse content refers to different crowd activities under three distinct categories - Sparse, Dense Free Flowing and Dense Congested. All videos are at 720p resolution and 30 Hz frame rate. Then, for monitoring the eye movements, a EyeTribe eye tracker  was used in our experiment. Moreover, **26 participants** (10 males and 16 females), aging from 17 to 40, participated in the eye-tracking experiment. All participants were non-experts for the eye-tracking experiment, with normal/corrected-to-normal vision. During the experiment, the distance between subjects and the monitor was fixed at 60 cm. Before viewing videos, each subject was required to perform a 9-point calibration for the eye tracker. Afterwards, the subjects were asked to free-view videos displayed in an MTV style. Finally,  fixations of all 32 subjects on 538 videos were collected for our eye-tracking database.
 
-For the **establishment details** and **data analysis** of LEDOV, please refer to Section 3 of our [paper](http://openaccess.thecvf.com/content_ECCV_2018/html/Lai_Jiang_DeepVS_A_Deep_ECCV_2018_paper.html).
-
-Some examples of LEDOV are shown below and in **'sample.avi'**.
+Some examples of CrowdFix saliency heatmaps are shown below and in **'sample.avi'**.
 ![examples](/figs/data.png "examples")
 
 ## Download  
-All 538 videos as well as eye-tracking can be downloaded at [Dropbox](https://www.dropbox.com/s/pc8symd9i3cky1q/LEDOV.zip?dl=0) and [BaiduYun](http://pan.baidu.com/s/1pLmfjCZ)
+All 434 videos as well as the maps can be downloaded at [Dropbox](https://www.dropbox.com/s/pc8symd9i3cky1q/LEDOV.zip?dl=0) and [Google Drive](http://pan.baidu.com/s/1pLmfjCZ)
 
 ## How to use 
 
-### memoona 
+Format: 
+video folder--|  
+              |---- 434 clips annotated with their category, 5GB
+              |---- Frames: are not be included. Code to generate the frames with the same name sequence as the corresponding ground                   |     truth maps, download this folder and run the frame.py file without modifying folder hierarchy.
+              |---- Binary Fixation Maps 210 MB
+              |---- Saliency Maps 2.2 GB
 
-Format:
-video
-Uncut videos: annotated with their category, 6GB
-434 clips annotated with their category, 5GB
-Frames: won’t be included. Code to generate from videos in python
-Binary Fixation Maps 210 MB
-.mat files .  Code to read images as .mat file in python. 
-Saliency Maps 2.2 GB
-### memoona end
-* **'VideoInfo.xlsx'** and **'SubjectInfo.xlsx'** list the information of videos and subjects.  
-* **'VideoInfo.mat'** also includes the video information in the order of video name, frame rate, frame number, and resolution.  
-*  **'Data.mat'** in each sub-fold record the fixations of the video. In **Data.fixdata**, each row refers to a recorded fixation with the information as follows,   
-*'column 1'*: the index of subject that the fixation belongs to  
-*'column 2'*: the timestamp(ms) that the fixation starts  
-*'column 3'*: the duration of the fixation  
-*'column 4-5'*: the position of the fixation (take upper-lift corner as the origin)
+              
+* **'CategoryInfo.xlsx'** lists the information of crowd categories against each video. It includes the following information  
 
-As a test, you can run **'demo.m'** to generate the heat-map series of the target video.  
-
-## Evaluation metrics
-The evaluartion codes (AUC, NSS, CC and KL) we used in our paper can be refered in ./metrics. A example of using them can be seen in ./metrics/TestLEDOV.m 
+      *'column 1'*: Video Number as given in the uploaded video folder
+      *'column 2'*: Crowd Category Type (SP for Sparse, DF for Dense-Free Flowing and DC for Dense Congested)
+ 
 
 ## Citation
 You are welcome to freely use this database, and please cite with the following Bibtex code:
