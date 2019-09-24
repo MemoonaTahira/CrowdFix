@@ -42,4 +42,4 @@ year = {2018}
 ```
 
 ## Contact
-Should you have any queries, please contact jianglai.china@buaa.edu.cn / jianglai.china@aliyun.com
+Should you have any queries, please contact mtahira.mscs17seecs@seecs.edu.pk / smehboob.mscs17seecs@seecs.edu.pk
