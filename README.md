@@ -15,7 +15,7 @@ The dataset can be downloaded at [Dropbox](https://www.dropbox.com/s/pc8symd9i3c
 
 <pre> CrowdFix
   ┬ videos: 434 clips annotated with their category, 5GB 
-  ├ Frames: are not be included. Code to generate the frames with the same name sequence as the corresponding ground truth maps,     download this folder and run the frame.py file without modifying folder hierarchy.
+  ├ frames.py: Run frame.py without modifying folder hierarchy to generate the frames with the same name sequence as the corresponding ground truth binary fixation and saliency maps.
   ├ Binary Fixation Maps
   └ Saliency Maps
 </pre> 
