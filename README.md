@@ -15,7 +15,28 @@ All 434 videos as well as the maps can be downloaded at [Dropbox](https://www.dr
 ## How to use 
 
 Format: 
-video folder--|  
+
+./
+- saliconEvalDemo.py (demo script)
+- image2json.py (converts a folder of saliency maps to result JSON)
+
+./annotation
+- fixations_val2014.json (SALICON 2014 validation set)
+- Visit SALICON [download]() page for more details.
+
+./results
+- fixations_val2014_fake_results.json (an example of fake results for running demo)
+- Visit SALICON [format]() page for more details.
+
+./saliconeval: The folder where all evaluation codes are stored.
+- evals.py: The file includes SALICONEval class that can be used to evaluate results on SALICON.
+- auc: AUC evalutation code
+- sauc: Shuffled AUC evaluation code
+- nss: NSS evaluation code
+- cc: CC evaluation code
+
+~> tree -d /videos/
+videos    --|  
               |---- 434 clips annotated with their category, 5GB
               |---- Frames: are not be included. Code to generate the frames with the same name sequence as the corresponding ground                   |     truth maps, download this folder and run the frame.py file without modifying folder hierarchy.
               |---- Binary Fixation Maps 210 MB
@@ -23,9 +44,8 @@ video folder--|
 
               
 * **'CategoryInfo.xlsx'** lists the information of crowd categories against each video. It includes the following information  
-
-      *'column 1'*: Video Number as given in the uploaded video folder
-      *'column 2'*: Crowd Category Type (SP for Sparse, DF for Dense-Free Flowing and DC for Dense Congested)
+*'column 1'*: Video Number as given in the uploaded video folder
+*'column 2'*: Crowd Category Type (SP for Sparse, DF for Dense-Free Flowing and DC for Dense Congested)
  
 
 ## Citation
