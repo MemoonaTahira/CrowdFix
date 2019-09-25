@@ -44,10 +44,9 @@ videos    --|
 
               
 * **'CategoryInfo.xlsx'** lists the information of crowd categories against each video. It includes the following information:
+  *'column 1'*: Video Number as given in the uploaded video folder
+  *'column 2'*: Crowd Category Type (SP for Sparse, DF for Dense-Free Flowing and DC for Dense Congested)
 
-*'column 1'*: Video Number as given in the uploaded video folder
-*'column 2'*: Crowd Category Type (SP for Sparse, DF for Dense-Free Flowing and DC for Dense Congested)
- 
 
 ## Citation
 You are welcome to freely use this database, and please cite with the following Bibtex code:
