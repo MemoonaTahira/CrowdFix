@@ -9,14 +9,11 @@ CrowdFix includes **434 videos** with diverse crowd scenes, containing a total o
 Some examples of CrowdFix saliency heatmaps are shown below and in **'sample.avi'** and in
 ![examples](/figs/ )
 
-## Download  
-All 434 videos as well as the maps can be downloaded at [Dropbox](https://www.dropbox.com/s/pc8symd9i3cky1q/LEDOV.zip?dl=0) and [Google Drive](http://pan.baidu.com/s/1pLmfjCZ)
 
 ## How to use 
+The dataset can be downloaded at [Dropbox](https://www.dropbox.com/s/pc8symd9i3cky1q/LEDOV.zip?dl=0) and [Google Drive](http://pan.baidu.com/s/1pLmfjCZ). The link contains the following folders and files:
 
-: 
-
-<pre> Format of CrowdFix
+<pre> CrowdFix
   ┬ videos: 434 clips annotated with their category, 5GB 
   ├ Frames: are not be included. Code to generate the frames with the same name sequence as the corresponding ground truth maps,     download this folder and run the frame.py file without modifying folder hierarchy.
   ├ Binary Fixation Maps
