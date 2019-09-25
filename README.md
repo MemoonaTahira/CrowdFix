@@ -43,7 +43,8 @@ videos    --|
               |---- Saliency Maps 2.2 GB
 
               
-* **'CategoryInfo.xlsx'** lists the information of crowd categories against each video. It includes the following information  
+* **'CategoryInfo.xlsx'** lists the information of crowd categories against each video. It includes the following information:
+
 *'column 1'*: Video Number as given in the uploaded video folder
 *'column 2'*: Crowd Category Type (SP for Sparse, DF for Dense-Free Flowing and DC for Dense Congested)
  
