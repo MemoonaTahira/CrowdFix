@@ -1,5 +1,4 @@
 #created by Memoona Tahira on 25 september 2019 on 15:28
-# This code was tested on Ubuntu 18.04 with ffmpeg installed
 # you need to have ffmpeg instaled and on the path.
 
 

@@ -2,7 +2,7 @@
 
 .idea
 .git
-
+.gitignore
 
 Videos/
 BinaryMaps/
