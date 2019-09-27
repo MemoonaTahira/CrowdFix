@@ -29,7 +29,7 @@ VIDDIR= os.path.join(DIR, 'Videos')
 if not os.path.isdir(VIDDIR):
     raise Exception("ERROR: no video directory found! (expecting '%s')" % VIDDIR)
 
-#what I want to do is read video folder contents one by one, genrate frames using ffmpeg and store as frames in the IMGDIR
+#what I want to do is read video folder contents one by one, generate frames using ffmpeg and store in the IMGDIR
 #folder with 3 digit serial extension. eg 001_002
 
 
