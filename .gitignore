@@ -1,0 +1,12 @@
+## ignoring dataset files amd media info
+
+.idea
+.git
+
+
+Videos/
+BinaryMaps/
+SaliencyMaps/
+images/
+mediainfo/
+
