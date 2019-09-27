@@ -10,6 +10,8 @@ import sys
 from sys import platform as _platform
 
 
+#check the platform to detremine how to call ffmpeg library
+
 if _platform == "linux" or _platform == "linux2" or _platform == "darwin":
     FFMPEG_BIN = "fmpeg"
 elif _platform == "win32"  or _platform == "win64":
@@ -18,18 +20,20 @@ else:
     sys.exit("unknown  Operating system. Terminating program")
 
 
-
+# Create directory for storing frames called 'frames'
 
 DIR = os.path.abspath(os.path.dirname(__file__))
-FRAMEDIR=os.path.join(DIR, 'images')
+FRAMEDIR=os.path.join(DIR, 'frames')
 if not os.path.isdir(FRAMEDIR):
     os.mkdir(FRAMEDIR)
+
+# path to directory containing the videos:
 
 VIDDIR= os.path.join(DIR, 'Videos')
 if not os.path.isdir(VIDDIR):
     raise Exception("ERROR: no video directory found! (expecting '%s')" % VIDDIR)
 
-#what I want to do is read video folder contents one by one, genrate frames using ffmpeg and store as frames in the IMGDIR
+#read video folder contents one by one, generate frames using ffmpeg and store as frames in the FRAMEDIR
 #folder with 3 digit serial extension. eg 001_002
 
 
@@ -43,9 +47,7 @@ for num  in range (len(vidlist)):
 
     vidname_wo= vidlist_wo[num]
 
-
     framepath= os.path.join(FRAMEDIR, "%s" % (vidname_wo))
-
 
     command = 'ffmpeg -i {vidpath}  {framepath}_%03d.png'.format(vidpath=vidpath, framepath=framepath)
     sp.call(command, shell=True)
