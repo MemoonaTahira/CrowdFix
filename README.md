@@ -1,6 +1,6 @@
 CrowdFix
 =========
-A new eye-tracking dataset called CrowdFix for crowd video saliency database from Memoona Tahira and Sobas Mehboob (National University of Sciences and Technology)
+A crowd video saliency database from Memoona Tahira and Sobas Mehboob (National University of Sciences and Technology)
 
 
 ## Brief introduction
