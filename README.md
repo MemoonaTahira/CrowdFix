@@ -9,7 +9,7 @@ CrowdFix includes **434 videos** with diverse crowd scenes, containing a total o
 Some examples of CrowdFix saliency heatmaps are shown below in ![**examples**](/figs/ ) and in ![**sample.avi**](sample.avi).
 
 ## How to use 
-The dataset can be downloaded at [Dropbox](https://www.dropbox.com/s/pc8symd9i3cky1q/LEDOV.zip?dl=0) and [Google Drive](http://pan.baidu.com/s/1pLmfjCZ). The link contains the following folders and files:
+The dataset will be provided on request. Please contact mtahira.mscs17seecs@seecs.edu.pk / smehboob.mscs17seecs@seecs.edu.pk
 
 <pre> CrowdFix
   ┬ videos: 434 clips annotated with their category, 5GB 
@@ -25,18 +25,5 @@ The dataset can be downloaded at [Dropbox](https://www.dropbox.com/s/pc8symd9i3c
 
 
 
-## Citation
-You are welcome to freely use this database, and please cite with the following Bibtex code:
 
-```
-@InProceedings{Jiang_2018_ECCV,
-author = {Jiang, Lai and Xu, Mai and Liu, Tie and Qiao, Minglang and Wang, Zulin},
-title = {DeepVS: A Deep Learning Based Video Saliency Prediction Approach},
-booktitle = {The European Conference on Computer Vision (ECCV)},
-month = {September},
-year = {2018}
-} 
-```
 
-## Contact
-Should you have any queries, please contact mtahira.mscs17seecs@seecs.edu.pk / smehboob.mscs17seecs@seecs.edu.pk
