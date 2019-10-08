@@ -57,7 +57,7 @@ for num  in range (len(vidlist)):
     vidname_wo= vidlist_wo[num]
 
     framepath= os.path.join(FRAMEDIR, "%s" % (vidname_wo))
-
-    command = 'ffmpeg -i {vidpath}  {framepath}_%03d.png'.format(vidpath=vidpath, framepath=framepath)
+    # change extension to .png or .bmp if required. 
+    command = 'ffmpeg -i {vidpath}  {framepath}_%03d.jpg'.format(vidpath=vidpath, framepath=framepath)
     sp.call(command, shell=True)
 
