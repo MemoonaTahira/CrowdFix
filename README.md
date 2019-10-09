@@ -22,18 +22,6 @@ The dataset will be provided on request. Please contact mtahira.mscs17seecs@seec
 * 'column 2' *: Crowd Category Type (SP for Sparse, DF for Dense-Free Flowing and DC for Dense Congested)
 
 
-## Citation
-You are welcome to freely use this database, and please cite with the following Bibtex code:
-
-
-@InProceedings{tahira2019crowdfix,
-author={Memoona Tahira and Sobas Mehboob and Anis U. Rahman and Omar Arif},
-title={CrowdFix: An Eyetracking Data-set of Human Crowd Video},
-year={2019},
-eprint={1910.02618},
-archivePrefix={arXiv},
-primaryClass={cs.CV}
-}
 
 
 
