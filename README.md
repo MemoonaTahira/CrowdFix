@@ -9,7 +9,7 @@ CrowdFix includes **434 videos** with diverse crowd scenes, containing a total o
 Some stills from the dataset videos are shown in [**examples**](/figs/ ). A sample of resultant heatmaps of eye fixations over a few videos are shown in in [**sample.avi**](sample.avi).
 
 ## How to use 
-The dataset will be provided on request. Please contact mtahira.mscs17seecs@seecs.edu.pk / smehboob.mscs17seecs@seecs.edu.pk
+The dataset can be downloaded from the following [link](https://drive.google.com/drive/folders/1_7wKveiebIe16opBnIOMrRJzxASo9o4L?usp=sharing).
 
 <pre> CrowdFix
   ┬ videos: 434 clips annotated with their category, 5GB 
@@ -20,8 +20,8 @@ The dataset will be provided on request. Please contact mtahira.mscs17seecs@seec
 
               
 **'CategoryInfo.xlsx'** lists the information of crowd categories against each video. It includes the following information:
-* 'column 1' *: Video Number as given in the uploaded video folder.
-* 'column 2' *: Crowd Category Type (SP for Sparse, DF for Dense Free-Flowing and DC for Dense Congested)
+* 'column 1' : Video Number as given in the uploaded video folder.
+* 'column 2' : Crowd Category Type (SP for Sparse, DF for Dense Free-Flowing and DC for Dense Congested)
 
 
 
@@ -39,7 +39,7 @@ You are welcome to freely use this database, and please cite with the following 
 }
 ```
 
-
+Feel free to contact mtahira.mscs17seecs@seecs.edu.pk / smehboob.mscs17seecs@seecs.edu.pk in case of any queries.
 
 
 
