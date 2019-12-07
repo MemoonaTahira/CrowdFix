@@ -29,14 +29,18 @@ The dataset can be downloaded from the following [link](https://drive.google.com
 You are welcome to freely use this database, and please cite with the following Bibtex code:
 
 ```
-@misc{tahira2019crowdfix,
-    title={CrowdFix: An Eyetracking Dataset of Real Life Crowd Videos},
-    author={Memoona Tahira and Sobas Mehboob and Anis U. Rahman and Omar Arif},
-    year={2019},
-    eprint={1910.02618},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
+@ARTICLE{8918032,
+author={M. {Tahira} and S. {Mehboob} and A. U. {Rahman} and O. {Arif}},
+journal={IEEE Access},
+title={CrowdFix: An Eyetracking Dataset of Real Life Crowd Videos},
+year={2019},
+volume={},
+number={},
+pages={1-1},
+keywords={Videos;Visualization;Computational modeling;Gaze tracking;Predictive models;Meters;Licenses;Attention;Crowd Analysis;Crowd Videos;Eye movement;Eye tracking;Fixations;Region of Interest;Saliency},
+doi={10.1109/ACCESS.2019.2956840},
+ISSN={2169-3536},
+month={},}
 ```
 
 Feel free to contact mtahira.mscs17seecs@seecs.edu.pk / smehboob.mscs17seecs@seecs.edu.pk in case of any queries.
