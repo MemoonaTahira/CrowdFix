@@ -34,13 +34,11 @@ author={M. {Tahira} and S. {Mehboob} and A. U. {Rahman} and O. {Arif}},
 journal={IEEE Access},
 title={CrowdFix: An Eyetracking Dataset of Real Life Crowd Videos},
 year={2019},
-volume={},
-number={},
-pages={1-1},
-keywords={Videos;Visualization;Computational modeling;Gaze tracking;Predictive models;Meters;Licenses;Attention;Crowd Analysis;Crowd Videos;Eye movement;Eye tracking;Fixations;Region of Interest;Saliency},
+volume={7},
+pages={179002-179009},
+keywords={Videos;Visualization;Computational modeling;Gaze tracking;Predictive models;Meters;Licenses;Attention;crowd analysis;crowd videos;eye movement;eye tracking;fixations;region of interest;saliency},
 doi={10.1109/ACCESS.2019.2956840},
-ISSN={2169-3536},
-month={},}
+ISSN={2169-3536},}
 ```
 
 Feel free to contact mtahira.mscs17seecs@seecs.edu.pk / smehboob.mscs17seecs@seecs.edu.pk in case of any queries.
