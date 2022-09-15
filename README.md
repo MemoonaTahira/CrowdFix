@@ -38,8 +38,9 @@ The dataset can be downloaded from the following [link](https://drive.google.com
 * 'column 1' : Video Number as given in the uploaded video folder.
 * 'column 2' : Crowd Category Type (SP for Sparse, DF for Dense Free-Flowing and DC for Dense Congested)
 
-## For creating a test set, reading binary and fixation maps in python, and manipulating direcotries to use with any training code:
+<!-- ## For creating a test set, reading binary and fixation maps in python, and manipulating direcotries to use with any training code:
 Please see this folder for [**demo code**](demo_code).
+-->
 
 ## Citation
 You are welcome to freely use this database, and please cite with the following Bibtex code:
