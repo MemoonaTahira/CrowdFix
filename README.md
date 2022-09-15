@@ -6,13 +6,19 @@ Detail of the dataset and its analysis can be found in our IEEE Access paper [he
 ## Brief introduction
 CrowdFix includes **434 videos** with diverse crowd scenes, containing a total of **37,493 frames** and **1,249 seconds**. The diverse content refers to different crowd activities under three distinct categories - Sparse, Dense Free Flowing and Dense Congested. All videos are at 720p resolution and 30 Hz frame rate. For monitoring the eye movements, an EyeTribe eye tracker  was used in our experiment. **26 participants** (10 males and 16 females), aging from 17 to 40, participated in the eye-tracking experiment. All participants were non-experts for the eye-tracking experiment, with normal/corrected-to-normal vision. During the experiment, the distance between subjects and the monitor was fixed at 60 cm. Before viewing videos, each subject was required to perform a 9-point calibration for the eye tracker. After the calibration, the subjects were asked to free-view videos displayed in an MTV style. Finally,  fixations of all 32 subjects on 538 videos were collected for our eye-tracking database.
 
+Some stills from the dataset videos are shown in [**examples**](/figs/ ). 
+A sample of resultant heatmaps of eye fixations over a few videos are shown in in [**sample.avi**](sample.avi).
+
+
+https://user-images.githubusercontent.com/41547742/190405255-5905c6c6-0274-4824-ac90-0b53353a8f0c.mp4
+
+
+
 Here is a demo video explaining our work in more detail:
 
 https://user-images.githubusercontent.com/41547742/190403767-2441151c-867a-4d2b-9ebb-9da8dcd1b8fb.mp4
 
 
-Some stills from the dataset videos are shown in [**examples**](/figs/ ). 
-A sample of resultant heatmaps of eye fixations over a few videos are shown in in [**sample.avi**](sample.avi).
 
 
 ## How to use 
