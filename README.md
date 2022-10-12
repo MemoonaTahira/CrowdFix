@@ -37,12 +37,11 @@ The dataset can be downloaded from the following [link](https://drive.google.com
 Please see this folder for [**demo code**](demo_code).
 -->
 
-## Evaluation of a Deep Learning Model for Predict Visual Saliency on CrowdFix:
+## To evaluate a visual saliency prediction model on CrowdFix:
 
-Please have a look at this repo [here](https://github.com/MemoonaTahira/Visual-Saliency-Metrics-for-Evaluating-Deep-Learning-Model-performance), which has codes to easily add any Visual Saliency dataset (image/video), including CrowdFix, and use a test set to evaluate any given model's performance for predicting visual saliency.  
+Please have a look at this repo [here](https://github.com/MemoonaTahira/Visual-Saliency-Metrics-for-Evaluating-Deep-Learning-Model-performance), which has codes to easily add any visual saliency dataset (image/video), including CrowdFix, to evaluate any given deep learning model's performance for predicting visual saliency.  
 
-
-Some saliency prediction results on DeepVS, ACL and SAM against a baseline of gaussianed fixation maps:
+Some saliency prediction results for CrowdFix on DeepVS, ACL and SAM against a baseline of gaussianed fixation maps:
 <img src = "figs/saliency_model_results.png" width=50% height=50%>
 
 Some of the other most popular Deep Learning video saliency prediction models can be found in this leaderboard [here](https://mmcheng.net/videosal/).
