@@ -18,11 +18,6 @@ Here is a demo video explaining our work in more detail:
 https://user-images.githubusercontent.com/41547742/190403767-2441151c-867a-4d2b-9ebb-9da8dcd1b8fb.mp4
 
 
-Final results:
-
-![image](https://user-images.githubusercontent.com/41547742/190411354-9680ae39-4132-4027-abc8-825d02e32137.png)
-
-
 ## How to use 
 The dataset can be downloaded from the following [link](https://drive.google.com/drive/folders/1_7wKveiebIe16opBnIOMrRJzxASo9o4L?usp=sharing).
 
@@ -46,8 +41,13 @@ Please see this folder for [**demo code**](demo_code).
 
 Please have a look at this repo [here](https://github.com/MemoonaTahira/Visual-Saliency-Metrics-for-Evaluating-Deep-Learning-Model-performance), which has codes to easily add any Visual Saliency dataset (image/video), including CrowdFix, and use a test set to evaluate any given model's performance for predicting visual saliency.  
 
-Some of the most popular Deep Learning video saliency prediction models can be found [here](https://mmcheng.net/videosal/) in this leaderboard by [Wenguan Wang](https://github.com/wenguanwang).
 
+Some saliency prediction results on DeepVS, ACL and SAM against a baseline of gaussianed fixation maps:
+
+![image](https://user-images.githubusercontent.com/41547742/190411354-9680ae39-4132-4027-abc8-825d02e32137.png)
+
+
+Some of the other most popular Deep Learning video saliency prediction models can be found in this leaderboard [here](https://mmcheng.net/videosal/).
 
 ## Citation
 You are welcome to freely use this database, and please cite with the following Bibtex code:
