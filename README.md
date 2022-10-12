@@ -49,7 +49,9 @@ Some saliency prediction results for CrowdFix on DeepVS, ACL and SAM against a b
 Some of the other most popular Deep Learning video saliency prediction models can be found in this leaderboard [here](https://mmcheng.net/videosal/).
 
 ## Citation
-You are welcome to freely use this database, and please cite with the following Bibtex code:
+You are welcome to freely use this database, and please cite with the following Plain text reference/Bibtex code:
+
+- M. Tahira, S. Mehboob, A. U. Rahman and O. Arif, "CrowdFix: An Eyetracking Dataset of Real Life Crowd Videos," in IEEE Access, vol. 7, pp. 179002-179009, 2019, doi: 10.1109/ACCESS.2019.2956840.
 
 ```
 @ARTICLE{8918032,
