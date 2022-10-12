@@ -1,11 +1,11 @@
 CrowdFix
 =========
 
-Detail of the dataset and its analysis can be found in our IEEE Access paper [here](https://ieeexplore.ieee.org/document/8918032). This dataset is part of the **MIT/Tübingen Saliency Benchmark datasets**, whose detail can be found [here](https://saliency.tuebingen.ai/datasets.html)
+CrowdFix is a dataset of 434 crowd videos with different densities, on which an eye-tracking experiment was conducted to collect human eye fixations from 26 observers. Detail of the dataset and its analysis can be found in our IEEE Access paper [here](https://ieeexplore.ieee.org/document/8918032). This dataset is part of the **MIT/Tübingen Saliency Benchmark datasets**, whose detail can be found [here](https://saliency.tuebingen.ai/datasets.html)
 
 Here is a demo video for an overview of the dataset:
 
-<a href="/figs/demo.mp4" title="Eyetracking Demo"><img src="/figs/cover_demo.png" alt="Eyetracking Demo" width=50% height=50%/></a>
+<a href="https://youtu.be/aL_-S5734Dw" title="Eyetracking Demo"><img src="/figs/cover_demo.png" alt="Eyetracking Demo" width=50% height=50%/></a>
 
 ## Brief introduction
 CrowdFix includes **434 videos** with diverse crowd scenes, containing a total of **37,493 frames** and **1,249 seconds**. The diverse content refers to different crowd activities under three distinct categories - Sparse, Dense Free Flowing and Dense Congested. All videos are at 720p resolution and 30 Hz frame rate. For monitoring the eye movements, an EyeTribe eye tracker  was used in our experiment. **26 participants** (10 males and 16 females), aging from 17 to 40, participated in the eye-tracking experiment. All participants were non-experts for the eye-tracking experiment, with normal/corrected-to-normal vision. During the experiment, the distance between subjects and the monitor was fixed at 60 cm. Before viewing videos, each subject was required to perform a 9-point calibration for the eye tracker. After the calibration, the subjects were asked to free-view videos displayed in an MTV style. Finally,  fixations of all 32 subjects on 538 videos were collected for our eye-tracking database.
@@ -16,7 +16,7 @@ Some stills from the dataset videos are shown below:
 
 A sample of resultant heatmaps of eye fixations over a few videos are shown below: 
 
-<a href="/figs/saliency_heatmaps.mp4" title="Sample Heatmaps"><img src="/figs/cover_heatmaps.png" alt="Sample Heatmaps" width=50% height=50%/></a>
+<a href="https://youtu.be/f0dcziSSLyA" title="Sample Heatmaps"><img src="/figs/cover_heatmaps.png" alt="Sample Heatmaps" width=50% height=50%/></a>
 
 ## How to use 
 The dataset can be downloaded from the following [link](https://drive.google.com/drive/folders/1_7wKveiebIe16opBnIOMrRJzxASo9o4L?usp=sharing).
