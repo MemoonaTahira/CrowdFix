@@ -1,4 +1,4 @@
-The dataset can be downloaded from [here](https://drive.google.com/drive/folders/1_7wKveiebIe16opBnIOMrRJzxASo9o4L?usp=sharing).
+The dataset can be downloaded from [here](https://drive.google.com/drive/folders/1mRvkwqJM2ulFYZotV-L-W3j8xJ-mEsvn?usp=drive_link).
 
 CrowdFix
 =========
@@ -21,7 +21,7 @@ A sample of resultant heatmaps of eye fixations over a few videos are shown belo
 <a href="https://youtu.be/f0dcziSSLyA" title="Sample Heatmaps"><img src="/figs/cover_heatmaps.png" alt="Sample Heatmaps" width=50% height=50%/></a>
 
 ## How to download and use: 
-The dataset can be downloaded from the following [link](https://drive.google.com/drive/folders/1_7wKveiebIe16opBnIOMrRJzxASo9o4L?usp=sharing).
+The dataset can be downloaded from the following [link](https://drive.google.com/drive/folders/1mRvkwqJM2ulFYZotV-L-W3j8xJ-mEsvn?usp=drive_link).
 
 <pre> CrowdFix
   ┬ videos: 434 clips annotated with their category, 5GB 
